@@ -1,0 +1,56 @@
+-------------------------------------------------------------------------------
+Test set: LoginPageTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 51.985 s <<< FAILURE! - in LoginPageTest
+loginOnMainPage(LoginPageTest)  Time elapsed: 13.507 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//button[text()='Оформить заказ']"}
+  (Session info: chrome=109.0.5414.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9a910a1868c0607ae2c527a7c26b9069, findElement {using=xpath, value=.//button[text()='Оформить заказ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.119, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/p_/jh6mz4mn0y1...}, goog:chromeOptions: {debuggerAddress: localhost:53261}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53261/devtoo..., se:cdpVersion: 109.0.5414.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9a910a1868c0607ae2c527a7c26b9069
+	at LoginPageTest.loginOnMainPage(LoginPageTest.java:28)
+
+loginOnRefreshPasswordForm(LoginPageTest)  Time elapsed: 13.82 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//button[text()='Оформить заказ']"}
+  (Session info: chrome=109.0.5414.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b92a3836d6098cafca69a3c8c5ffab89, findElement {using=xpath, value=.//button[text()='Оформить заказ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.119, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/p_/jh6mz4mn0y1...}, goog:chromeOptions: {debuggerAddress: localhost:53337}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53337/devtoo..., se:cdpVersion: 109.0.5414.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b92a3836d6098cafca69a3c8c5ffab89
+	at LoginPageTest.loginOnRefreshPasswordForm(LoginPageTest.java:56)
+
+loginOnRegistrationForm(LoginPageTest)  Time elapsed: 11.139 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//button[text()='Оформить заказ']"}
+  (Session info: chrome=109.0.5414.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7368f7a17852ca04d67b7c645c61616e, findElement {using=xpath, value=.//button[text()='Оформить заказ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.119, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/p_/jh6mz4mn0y1...}, goog:chromeOptions: {debuggerAddress: localhost:53414}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53414/devtoo..., se:cdpVersion: 109.0.5414.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7368f7a17852ca04d67b7c645c61616e
+	at LoginPageTest.loginOnRegistrationForm(LoginPageTest.java:46)
+
+loginOnClickPersonalAccount(LoginPageTest)  Time elapsed: 13.508 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//button[text()='Оформить заказ']"}
+  (Session info: chrome=109.0.5414.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0e41155342c122f9f06ab269c66d85cc, findElement {using=xpath, value=.//button[text()='Оформить заказ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.119, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/p_/jh6mz4mn0y1...}, goog:chromeOptions: {debuggerAddress: localhost:53482}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53482/devtoo..., se:cdpVersion: 109.0.5414.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e41155342c122f9f06ab269c66d85cc
+	at LoginPageTest.loginOnClickPersonalAccount(LoginPageTest.java:36)
+
